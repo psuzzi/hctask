@@ -56,3 +56,23 @@ when running `python start.py`
 - WebService: provides the web interface running at http://192.168.1.4:5001
 - ServiceFactory: Used to initialize services like RedditService, WebHookService, and TelegramService. Some services fail to initialize due to invalid configurations
 - CCXTConnector: used to manage connections to exchanges (e.g. Binance)
+
+
+### OctoBot-Tentacles
+
+Each tentacle is a module
+
+
+## Contributing
+
+Instructions on how to contribute to Octobot are available here: 
+
+### Setup
+- [dev env setup](https://www.octobot.cloud/en/guides/octobot-developers-environment/setup-your-environment)
+- [cloning repositories](https://www.octobot.cloud/en/guides/octobot-developers-environment/setup-your-environment#cloning-octobot-repositories-with-git)
+
+Long story short:
+
+- clone all the repositories
+- use pycharm ide or vscode
+- note that if you installed requirements, and then you clone, you need to remove/uninstall packages that are already installed.
